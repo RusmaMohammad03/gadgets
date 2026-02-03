@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovative Gadget Ideas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 50px;
+            padding: 30px 0;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .gadgets-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+
+        .gadget-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        .gadget-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+        }
+
+        .gadget-icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .gadget-card h3 {
+            color: #667eea;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .gadget-card p {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .features {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+
+        .features h4 {
+            color: #764ba2;
+            font-size: 1em;
+            margin-bottom: 10px;
+        }
+
+        .features ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .features li {
+            padding: 5px 0;
+            color: #666;
+        }
+
+        .features li:before {
+            content: "✓ ";
+            color: #667eea;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+
+        .price-tag {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            padding: 30px 0;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            
+            .gadgets-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 Innovative Gadget Ideas</h1>
+            <p>Discover the future of technology with these cutting-edge concepts</p>
+        </header>
+
+        <div class="gadgets-grid">
+            <div class="gadget-card">
+                <div class="gadget-icon">🎧</div>
+                <h3>Smart Sleep Headband</h3>
+                <p>A comfortable headband that monitors your sleep patterns, plays adaptive soundscapes, and gently wakes you during your lightest sleep phase for optimal rest.</p>
+                <div class="features">
+                    <h4>Key Features:</h4>
+                    <ul>
+                        <li>Real-time sleep tracking</li>
+                        <li>Binaural beats for deep sleep</li>
+                        <li>Smart alarm system</li>
+                        <li>30-day battery life</li>
+                    </ul>
+                </div>
+                <span class="price-tag">$149.99</span>
+            </div>
+
+            <div class="gadget-card">
+                <div class="gadget-icon">🌱</div>
+                <h3>AI Plant Care Pod</h3>
+                <p>An intelligent planter that automatically waters, provides nutrients, and adjusts lighting based on your plant's specific needs using AI-powered sensors.</p>
+                <div class="features">
+                    <h4>Key Features:</h4>
+                    <ul>
+                        <li>Moisture & nutrient monitoring</li>
+                        <li>Automated watering system</li>
+                        <li>LED grow lights</li>
+                        <li>Mobile app integration</li>
+                    </ul>
+                </div>
+                <span class="price-tag">$89.99</span>
+            </div>
+
+            <div class="gadget-card">
+                <div class="gadget-icon">⌚</div>
+                <h3>Posture Guardian</h3>
+                <p>A discreet wearable device that vibrates gently when you slouch, helping you maintain perfect posture throughout the day and prevent back pain.</p>
+                <div class="features">
+                    <h4>Key Features:</h4>
+                    <ul>
+                        <li>Real-time posture detection</li>
+                        <li>Gentle haptic feedback</li>
+                        <li>Progress tracking</li>
+                        <li>7-day battery life</li>
+                    </ul>
+                </div>
+                <span class="price-tag">$79.99</span>
+            </div>
+
+            <div class="gadget-card">
+                <div class="gadget-icon">🔋</div>
+                <h3>Solar Window Charger</h3>
+                <p>A transparent solar panel that attaches to any window and charges your devices using sunlight while maintaining your view.</p>
+                <div class="features">
+                    <h4>Key Features:</h4>
+                    <ul>
+                        <li>99% transparency</li>
+                        <li>USB-C & wireless charging</li>
+                        <li>Built-in battery storage</li>
+                        <li>Easy installation</li>
+                    </ul>
+                </div>
+                <span class="price-tag">$129.99</span>
+            </div>
+
+            <div class="gadget-card">
+                <div class="gadget-icon">🍳</div>
+                <h3>Smart Meal Prep Scanner</h3>
+                <p>Scan your ingredients and receive personalized recipe suggestions, nutritional information, and step-by-step cooking guidance through AR.</p>
+                <div class="features">
+                    <h4>Key Features:</h4>
+                    <ul>
+                        <li>Ingredient recognition AI</li>
+                        <li>Calorie tracking</li>
+                        <li>AR cooking instructions</li>
+                        <li>1000+ recipes database</li>
+                    </ul>
+                </div>
+                <span class="price-tag">$99.99</span>
+            </div>
+
+            <div class="gadget-card">
+                <div class="gadget-icon">🎮</div>
+                <h3>Mind-Controlled Mouse</h3>
+                <p>A revolutionary computer mouse that combines traditional controls with EEG sensors, allowing you to perform actions using thought patterns.</p>
+                <div class="features">
+                    <h4>Key Features:</h4>
+                    <ul>
+                        <li>Hybrid control system</li>
+                        <li>Customizable commands</li>
+                        <li>Gaming mode</li>
+                        <li>Rechargeable battery</li>
+                    </ul>
+                </div>
+                <span class="price-tag">$199.99</span>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Innovative Gadgets | Designing Tomorrow's Technology Today</p>
+        </footer>
+    </div>
+
+    <script>
+        // Add click animation
+        document.querySelectorAll('.gadget-card').forEach(card => {
+            card.addEventListener('click', function() {
+                this.style.transform = 'scale(0.95)';
+                setTimeout(() => {
+                    this.style.transform = '';
+                }, 200);
+            });
+        });
+    </script>
+</body>
+</html>
